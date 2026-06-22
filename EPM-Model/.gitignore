@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# CAP generated files
+gen/
+_out/
+target/
+
+# Local databases
+*.sqlite
+*.db
+db/*.db
+
+# Environment files
+.cdsrc-private.json
+default-*.json
+.env
+default-env.json
+
+# MTA
+mta_archives/
+*_mta_build_tmp/
+*.mtar
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# CAP CDS Typer
+@cds-models
